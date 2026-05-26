@@ -1,9 +1,23 @@
-Configurar o Git
+- Configurar o Git
 git config --global user.name "matheuszaccaro"
 git config --global user.email "matheuszacc07@gmail.com"
 
-Inicializar o Git
+- Inicializar o Git
 git init
 
-Criar o repo no GitHub
+- Criar o repo no GitHub
 nome do repo: Aula01
+
+- Nesta etapa, é a etapa de desenvolvimento, ou seja, alterações nos nossos arquivos. Site, projetos, arquivos texto, entre outros.
+
+- Após a conclusão do desenvolvimento, adicionar os arquivos ao repo:
+git add .
+
+- Comitar ao repositório com uma mensagem explicativa:
+git commit -m "Mensagem entre parênteses"
+
+- Associar o nosso repo local com o remoto
+git remote add origin LINK_DO_REPO
+git branch -M main
+git push -u origin main
+FAZER LOGIN E AUTORIZAR, SE NECESSÁRIO
